@@ -1,0 +1,55 @@
+body{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  font-family:  Roboto;
+}
+label{
+  font-weight: bold;
+}
+.container{
+  background-color: greenyellow;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+  font-weight: bold;
+  font-size: 2em;
+  color: black;
+}
+.dices{
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+}
+.num_of_dice{
+  font-weight: 1.5em;
+  color: black;
+}
+.roll_button{
+  padding: 12.5px 25px;
+  background-color: blue;
+  color: white;
+  font-weight: 500px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.roll_button :hover{
+  /* background-color: rgb(85, 85, 213); */
+  background-color: green;
+  /* transition: 2s ease-in-out; */
+}
+.output_dice_nums{
+  font-weight: bold;
+}
+.output_dice_imgs img{
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
